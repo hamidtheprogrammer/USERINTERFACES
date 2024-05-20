@@ -4,7 +4,7 @@ import { priceCategory } from "../constants";
 
 const Card = ({ title, price, content, click }) => {
   return (
-    <div className="w-[33%] flxStart flex-col gap-8 ">
+    <div className="w-[40vw] max-md:w-[50%] max-sm:w-[90%] flxStart flex-col gap-8 relative">
       <h1 className="">{title}</h1>
       <h1>{price}</h1>
       <p>{content}</p>

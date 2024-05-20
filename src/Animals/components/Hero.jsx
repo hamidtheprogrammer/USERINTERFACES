@@ -80,7 +80,7 @@ const Hero = () => {
         <h1>Watch in 4K HDR video with immersive Spatial Audio.1</h1>
         <h1>Share a single subscription with up to five people.</h1>
       </div>
-      <aside className="relative w-[80vw] flex gap-12 mt-36 price-container">
+      {/* <aside className="relative w-[80vw] flex-wrap flex gap-12 mt-36 price-container">
         {priceCategory.map((item) => (
           <Card
             title={item.title}
@@ -89,7 +89,7 @@ const Hero = () => {
             click={item.click}
           />
         ))}
-      </aside>
+      </aside> */}
     </section>
   );
 };

@@ -50,7 +50,7 @@ const Hero = () => {
     heroDetails.forEach((item) => {
       observer.observe(item);
     });
-    observer.observe(priceContainer);
+    // observer.observe(priceContainer);
   }, []);
 
   return (

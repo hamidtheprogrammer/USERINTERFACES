@@ -5,10 +5,10 @@ import { Fashion, Fashion2, Animals } from "./imports";
 const App = () => {
   return (
     <>
-      {/* <Fashion /> */}
+      <Fashion />
       {/* <Fashion2 /> */}
 
-      <Animals />
+      {/* <Animals /> */}
     </>
   );
 };

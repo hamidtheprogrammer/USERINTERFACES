@@ -28,6 +28,7 @@ const Animals = () => {
       <Nav />
       <Hero />
       {/* <Gallery /> */}
+      <div className="h-[100vh] w-[100%] bg-black relative"></div>
     </section>
   );
 };

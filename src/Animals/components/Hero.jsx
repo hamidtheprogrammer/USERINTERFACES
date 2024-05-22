@@ -58,7 +58,7 @@ const Hero = () => {
       className={`page-wrapper pb-12 text-white w-[100%] h-[100%] relative`}
     >
       <div className="flex-col flxStart justify-end  max-sm:gap-5 gap-9 w-[100%]  h-[100%] hero relative ">
-        <h1 className="max-md:text-6xl max-sm:text-4xl text-7xl font-[600] max-w-[80vw] min-w-[400px]">
+        <h1 className="max-md:text-6xl max-sm:text-4xl text-7xl font-[600] max-w-[80vw] min-w-[390px]">
           Unveil the Secrets of Nature: Exclusively on WildLifeTV+
         </h1>
         <Button

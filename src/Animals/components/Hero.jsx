@@ -71,7 +71,7 @@ const Hero = () => {
           Watch on the WildLife App
         </p>
       </div>
-      <div className="hero-detail relative h-[50%] mt-24 flxCenter flex-col gap-12 text-white max-md:text-4xl max-sm:text-2xl text-5xl font-[600] max-w-[80vw] overflow-hidden">
+      <div className="hero-detail relative h-[50%] mt-24 flxCenter flex-col gap-12 text-white max-md:text-4xl max-sm:text-2xl text-5xl font-[600] max-w-[80vw] overflow-y-scroll">
         <h1>New WildLife Originals every month — always ad-free.</h1>
         <h1>
           Stream on the WildLife TV app on WildLife devices, smart TVs, consoles

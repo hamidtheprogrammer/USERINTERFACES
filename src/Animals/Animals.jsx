@@ -8,7 +8,7 @@ const Animals = () => {
   const { background, bgOpacity } = useContext(backgroundContext);
 
   return (
-    <section className="absolute w-[100%] h-[100%] bg-[#f4f4f4ff] poppins ">
+    <section className="absolute w-[100%] h-[100%] bg-[#f4f4f4ff] poppins min-h-550px">
       <div className="absolute  w-[100%] h-[200%] ">
         <video
           className="sticky top-0 left-0 w-[100%] h-[50%] object-cover"

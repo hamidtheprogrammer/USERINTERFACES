@@ -18,14 +18,14 @@ const Hero = () => {
     document.addEventListener("scroll", () => {
       let { top } = document.querySelector(`.hero`).getBoundingClientRect();
 
-      opacity = 1 - (1 - top) * 0.005;
-      opacity = opacity < 0 ? 0 : opacity > 1 ? 1 : opacity;
-      heroContent.forEach((item) => {
-        item.style.opacity = opacity;
-      });
+      // opacity = 1 - (1 - top) * 0.005;
+      // opacity = opacity < 0 ? 0 : opacity > 1 ? 1 : opacity;
+      // heroContent.forEach((item) => {
+      //   item.style.opacity = opacity;
+      // });
 
-      bg = (1 - top) * 0.005;
-      bg = bg > 1 ? 1 : bg < 0.3 ? 0.3 : bg;
+      // bg = (1 - top) * 0.005;
+      // bg = bg > 1 ? 1 : bg < 0.3 ? 0.3 : bg;
       // console.log(bg);
       // changeBg(bg);
       // console.log(bgOpacity);

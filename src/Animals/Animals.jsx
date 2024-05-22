@@ -27,7 +27,7 @@ const Animals = () => {
       </div>
       <Nav />
       <Hero />
-      <Gallery />
+      {/* <Gallery /> */}
     </section>
   );
 };

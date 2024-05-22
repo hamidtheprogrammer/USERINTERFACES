@@ -8,13 +8,14 @@ const Animals = () => {
   const { background, bgOpacity } = useContext(backgroundContext);
 
   return (
-    <section className="relative w-[100%]  bg-[#f4f4f4ff] flex items-center flex-col poppins">
+    <section className="absolute w-[100%] h-[100%] bg-[#f4f4f4ff] poppins">
       <div className="absolute  w-[100%] h-[200%] ">
         <video
           className="sticky top-0 left-0 w-[100%] h-[50%] object-cover"
           src={
             "https://videos.pexels.com/video-files/7427471/7427471-uhd_3840_2160_25fps.mp4"
           }
+          playsInline
           autoPlay
           muted
           loop

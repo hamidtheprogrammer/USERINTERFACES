@@ -55,7 +55,7 @@ const Hero = () => {
 
   return (
     <section
-      className={`page-wrapper pb-12 text-white w-[100%] overscroll-auto h-[200%] relative`}
+      className={`page-wrapper pb-12 text-white w-[100%] h-[100%] relative`}
     >
       <div className="flex-col flxStart justify-end  max-sm:gap-5 gap-9 w-[100%]  h-[100%] hero relative">
         <h1 className="max-md:text-6xl max-sm:text-4xl text-7xl font-[600] max-w-[80vw]">
@@ -71,7 +71,7 @@ const Hero = () => {
           Watch on the WildLife App
         </p>
       </div>
-      <div className="hero-detail mt-24 flxCenter flex-col gap-12 text-white max-md:text-4xl max-sm:text-2xl text-5xl font-[600] max-w-[80vw]">
+      <div className="hero-detail relative h-[100%] mt-24 flxCenter flex-col gap-12 text-white max-md:text-4xl max-sm:text-2xl text-5xl font-[600] max-w-[80vw]">
         <h1>New WildLife Originals every month — always ad-free.</h1>
         <h1>
           Stream on the WildLife TV app on WildLife devices, smart TVs, consoles

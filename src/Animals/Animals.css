@@ -43,7 +43,7 @@
 .hero-detail h1 {
   opacity: 0;
   transition: transform 0.7s ease, opacity 0.5s ease;
-  transform: translateY(400px);
+  transform: translateY(190px);
 }
 
 .hero-detail .active {
@@ -53,7 +53,7 @@
 
 .price-container {
   transition: transform 0.5s ease, opacity 0.3s ease;
-  transform: translateY(150px);
+  transform: translateY(400px);
   opacity: 0;
 }
 
